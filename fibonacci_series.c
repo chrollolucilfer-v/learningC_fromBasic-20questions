@@ -1,13 +1,25 @@
 #include<stdio.h>
+
+
+// this is a program to solve fibonaci series for a nubmer
+
+// 0 1 1 3 5 8
+
+
 int main(){
-    // printf("Hello, World!\n");
-    // Basic Boilder cod
-    
-    // checking whether a series is a fibonaccki or not
-    // 0,1,1,2,3,5,8
 
-    int n, first = 1, second = 2, next;
+    int n, a = 0, b =1, c;
+    printf("Enter YOur Number: ");
+    scanf("%d",&n);
 
-    printf("Enter Number of ")
+    for( int i= 1; i<=n; i++){
+        printf("%d", a);
+        c = a + b;
+        a = b;
+        b = c;
+    }
+
     
+
+    return 0;
 }
